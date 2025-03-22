@@ -1,1 +1,1 @@
-in this lession i try and many DSA question from leetcode and basic dsa
+in this lession i do many DSA question from leetcode and basic dsa
