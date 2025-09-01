@@ -12,45 +12,45 @@ public class bit_1 {
         // note: index is start from right side.
         
       //Q. get the 3rd bit (position = 2) of a number n . (n = 0101)
-        // int n = 5;  //0101
-        // int posi = 2;
-        // int bitMask = 1<< posi ;
+        int n = 5;  //0101
+        int posi = 2;
+        int bitMask = 1<< posi ;
 
-        // if ((bitMask & n ) == 0 ) {
-        //     System.out.println("bit was zero");
-        // } else {
-        //     System.out.println("bit was one");
-        // }
+        if ((bitMask & n ) == 0 ) {
+            System.out.println("bit was zero");
+        } else {
+            System.out.println("bit was one");
+        }
 
-        // //2. Set bit
-        // // steps 1 bit mask like 1<< i
-        // //       2 operation like OR 
+      //2. Set bit
+        // steps 1 bit mask like 1<< i
+        //       2 operation like OR 
         
-        // // note: index is start from right side.
-        // //Q. get the 2rd bit (position = 1) of a number n . (n = 0101)
-        // int n = 5;
-        // int posi = 1;
-        // int bitMask = 1<< posi ;
+        // note: index is start from right side.
+      //Q. get the 2rd bit (position = 1) of a number n . (n = 0101)
+        int n = 5;
+        int posi = 1;
+        int bitMask = 1<< posi ;
 
-        // int newNumber  = bitMask | n ;
-        // System.out.println(newNumber);  // output 7
+        int newNumber  = bitMask | n ;
+        System.out.println(newNumber);  // output 7
 
 
-        //3. Clear bit  ( means make it '0')
+     //3. Clear bit  ( means make it '0')
         // steps 1 bit mask like 1<< i
         //       2 operation : NOT of bitMask, then its AND with give number
         
         // note: index is start from right side.
         //Q. get the 3rd bit (position = 2) of a number n . (n = 0101)
-        // int n = 5;
-        // int posi = 2;
-        // int bitMask = 1<< posi ;
-        // int NOT_bitMask = ~ bitMask ;
+        int n = 5;
+        int posi = 2;
+        int bitMask = 1<< posi ;
+        int NOT_bitMask = ~ bitMask ;
 
-        // int newNumber  = NOT_bitMask & n ;
-        // System.out.println(newNumber);  // output 1
+        int newNumber  = NOT_bitMask & n ;
+        System.out.println(newNumber);  // output 1
 
-        //4. Update bit
+      //4. Update bit
         // steps A) for 0, bit Mask 1<<i
         //                 operation AND with NOT
         //       B) for 1, bit Mask 1<<i
