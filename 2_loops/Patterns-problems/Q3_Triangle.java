@@ -39,6 +39,16 @@ public class patternProblem2 {
             System.out.println();
         } 
     }
+
+    // Q wap to print Inverted Right Pyramid
+    public static void InvertedRightPyramid() {
+        for (int i=4; i>0; i--) {
+            for (int j=0; j<i; j++) {
+                System.out.print("*" + " ");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         // trianglePattern();
         // trianglePattern_Q1();
